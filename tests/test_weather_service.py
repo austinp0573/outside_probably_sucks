@@ -100,7 +100,7 @@ class TestWeatherService(unittest.TestCase):
         # Note: handlers is a valid attribute of Logger instances, ignore linter error
         handlers = logger.handlers
         self.assertTrue(any(isinstance(h, logging.StreamHandler) for h in handlers))
-        self.assertTrue(any(isinstance(h, logging.handlers.RotatingFileHandler) for h in handlers))
+        self.assertTrue(any(isinstance(h, logging.handlers.RotatingFileHandler) for h in handlers)) # type: ignore
         
         # Clean up test log directory
         log_dir = 'logs'

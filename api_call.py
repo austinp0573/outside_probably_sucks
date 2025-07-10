@@ -17,7 +17,7 @@ formatted_time = None
 temp = None
 
 def get_weather_data():
-    """Fetch and process weather data from OpenWeatherMap API."""
+    # Fetch and process weather data from OpenWeatherMap API.
     global converted_time, feel_temp, formatted_time, temp
     
     # Get configuration from environment
@@ -46,7 +46,7 @@ def get_weather_data():
     return temp
 
 if __name__ == "__main__":
-    # This code only runs if api_call.py is run directly
+    # Run to check functionality before deployment
     try:
         temp = get_weather_data()
         current_time = times.current_time()

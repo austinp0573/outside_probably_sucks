@@ -1,5 +1,6 @@
 import time
-
+#function to print while waiting for next update
+#show something in terminal
 def stack_time(one: int, two: int):
     num = 1
     for i in range(1, (one + 1)):
