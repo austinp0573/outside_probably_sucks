@@ -1,0 +1,15 @@
+[project]
+name = "weather-emailer"
+version = "0.1.0"
+description = "Fetch weather data and send email updates"
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "tzdata",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
