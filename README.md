@@ -4,13 +4,13 @@ A Python application that automatically sends weather updates via email at regul
 
 ## Features
 
-- 🌡️ Real-time weather updates with "feels like" temperature
-- 📧 Automated email notifications
-- 🌅 Daily sunset time information
-- 📝 Detailed logging with rotation
-- ⏰ Configurable update intervals
-- 🎨 Fun, personalized weather descriptions
-- 🔄 Continuous operation with error handling
+- Real-time weather updates with "feels like" temperature
+- Automated email notifications
+- Daily sunset time information
+- Detailed logging with rotation
+- Configurable update intervals
+- Fun, personalized weather descriptions
+- Continuous operation with error handling
 
 ## Setup
 
